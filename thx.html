@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/base.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.2.x/dist/scroll.min.js"
+        defer></script>
+    <!-- <script type="text/javascript" src="main.js" defer></script> -->
+    <meta name="title" content="Создание сайтов Астана Mediaway.kz">
+    <meta name="description"
+        content="Создание сайтов в Астане - Mediaway.kz. Заказать создание сайта Астана. ☎ +7 7761604911. Разработка сайтов Астана. Сайты под ключ">
+    <title>😎Mediaway.kz - создание сайтов в Астане</title>
+
+
+
+
+
+    <script>
+        var myNav = document.getElementById("nav");
+
+        window.onscroll = function () {
+            "use strict";
+            if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
+                myNav?.classList?.add("scroll");
+            }
+            myNav?.classList?.remove("scroll");
+
+        };
+
+
+
+
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0e1733',
+                        darkLight: '#0c162d',
+                        primaryLight: '#272f4a',
+                        secondary: '#ff033e',
+                        secondaryLight: '#ef238a',
+                        green: '#47E189',
+                        greenDark: '#42cf7e',
+                        black: '#333',
+                        white: '#fff',
+                        red: '#e045e6',
+                        gray: '#F4F4F4',
+                        blueLight: '#c3d9f6'
+                    }
+                },
+
+                zIndex: {
+                    '40': '40',
+                    '60': '60',
+                    '50': '50',
+                    '70': '70',
+                    '80': '80'
+                },
+            }
+        }
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+//    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+//    m[i].l=1*new Date();
+//    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+//    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+//    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+//    ym(93054629, "init", {
+//         clickmap:true,
+//         trackLinks:true,
+//         accurateTrackBounce:true,
+//         webvisor:true
+//    });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/93054629" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Y2DSKNN1T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8Y2DSKNN1T');
+</script>
+	
+	 -->
+
+    <!-- Google Tag Manager -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TW3KR8V');</script> -->
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="bg-gray flex flex-col h-full">
+    <div class="overlay_menu"></div>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TW3KR8V" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+  
+
+
+        <header class="header w-full z-70 fixed">
+            <div class="header__left">
+                <div class="header__logo">
+                    <a href="/" class="logo">
+                        <img class="lg:w-[150px] w-[100px] h-[16px]" src="logo.svg" alt="">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list text-white">
+                        <li class="menu__item text-sm lg:bg-transparent bg-primaryLight"><a href="/"
+                                class="menu__link">На главную</a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <a href="tel:87761604911" class="header__phone">8 776 160 49 11</a>
+                
+            </div>
+
+            <div class="header__hamburger">
+                <div class="header__hamburger-line"></div>
+                <div class="header__hamburger-line"></div>
+                <div class="header__hamburger-line"></div>
+            </div>
+
+        </header>
+
+
+
+        <section id="home"
+            class="h-screen text-white home w-full relative overflow-hidden flex flex-col justify-center items-center ">
+
+
+            <div class="background absolute w-full top-0 left-0 z-50">
+                <div class="star1 star"></div>
+                <div class="star2 star"></div>
+                <div class="star3 star"></div>
+                <div class="star4 star"></div>
+            </div>
+
+
+            <div class="relative w-full  overflow-hidden flex flex-col items-center justify-center h-screen">
+
+
+                <!-- <video class="home__video" autoplay="" loop="" muted="muted">
+                    <source src="bg.webm" type="video/webm">
+                    <source src="bg.mp4" type="video/mp4">
+                </video> -->
+
+                <div class="container">
+                    <div
+                        class="text-center flex flex-col text-left lg:text-center lg:items-center border border-white border-opacity-20 mx-5 py-24 bg-white bg-opacity-10  rounded-sm items-start relative z-60 p-5">
+                        
+                        <h1 class="home__title lg:text-[60px] text-3x1 mb-5 lg:mt-0 mt-2 lg:text-center text-left ">
+                            Спасибо, что отправили заявку!
+                        </h1>
+                        <p class="lg:leading-9 lg:text-2xl text-1x1 lg:p-0 text-left lg:text-center text-lg">
+                            Наш специалист уже получил ваш запрос и
+                             в ближайшее время мы свяжемся с вами <br> для уточнения деталей.<br>
+
+                        </p>
+                        <a href="/" class="request-btn btn text-white bg-secondary mt-10 btn-lg">Вернуться на главную</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+        <div class="bg-primary p-5">
+            <div class="footer-bottom__container">
+                <div class=" flex items-center justify-center w-full text-center text-white">
+                    <p>Веб-студия Mediaway. Создание сайтов в Астане. Landing Page, сайта визитка, интернет магазин.
+                        <br> Работаем с 2017 года.
+
+                       </p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 0) {
+                header.classList.add('bg-primary');
+            } else {
+                header.classList.remove('bg-primary');
+            }
+        });
+
+
+
+        const hamburger = document.querySelector('.header__hamburger');
+        const menu = document.querySelector('.menu');
+        const overlay_m = document.querySelector('.overlay_menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+            overlay_m.classList.toggle('is-active');
+        });
+
+
+        const btn_bot = document.querySelector('#scroll-bot');
+        const target = document.querySelector('#about');
+
+        btn_bot.addEventListener('click', () => {
+            const y = target.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        });
+
+
+        const modal = document.getElementById("form_request");
+        const btn = document.querySelectorAll('.request-btn');
+        const close = document.querySelector(".modal .modal-close");
+        const overlay = document.querySelector(".modal-overlay");
+
+
+        btn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                modal.classList.add('open');
+            });
+        });
+
+        close.addEventListener("click", () => {
+            modal.classList.remove("open");
+        });
+
+        overlay.addEventListener("click", (event) => {
+            if (event.target === overlay) {
+                modal.classList.remove("open");
+            }
+        });
+    </script>
+
+
+
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-nesting": "^10.1.10",
+    "tailwindcss": "^3.1.6"
+  },
+  "scripts": {
+    "dev": "postcss ./css/base.css -o ./dist/base.min.css --watch",
+    "serve": "browser-sync start --server --files \"**/*\"",
+    "start": "run-p \"dev \" \"serve \" "
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.10",
+    "postcss-cli": "^10.0.0",
+    "postcss-minify": "^1.1.0",
+    "postcss-scss": "^4.0.4"
+  }
+}
